@@ -4,31 +4,42 @@ body {
     color:white;
 
 }
-h1{
+.maindiv h1{
     color:grey;
     font-family:verdana;
+
 }
 
 .maindiv{
     background-color:white;
+    font-family:arial;
+    font-weight:bold;
     color:black;
-    width:300px;
-    padding:20px;
+    width:500px;
+    padding:50px;
     border-radius:25px;
     align:center;
+    
 
 }
 /* fields and labels alignment in html*/
 .fields input{
-    margin-left:8em;
+    
+    margin-left:15em;
 }
 
 .fields select{
-    margin-left:8em;
+    
+    margin-left:15em;
 }
 
 .fields label{
+    margin-left:5em;
     position:absolute;
+}
+
+.maindiv button{
+    margin-left:10em;
 }
 
 /*highlight output values in innerHTML*/
