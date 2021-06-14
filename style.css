@@ -1,4 +1,37 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
 
+}
+h1{
+    color:grey;
+    font-family:verdana;
+}
 
+.maindiv{
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    align:center;
+
+}
+/* fields and labels alignment in html*/
+.fields input{
+    margin-left:8em;
+}
+
+.fields select{
+    margin-left:8em;
+}
+
+.fields label{
+    position:absolute;
+}
+
+/*highlight output values in innerHTML*/
+.highlight{
+    background-color:yellow;
+}
